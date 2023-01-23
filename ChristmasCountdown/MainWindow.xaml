@@ -1,0 +1,15 @@
+﻿<Window x:Class="ChristmasCountdown.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChristmasCountdown"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <StackPanel>
+        <Label Content="Dnes je: "/>
+        <Label x:Name="lbDnesniDatum" FontSize="25" Background="Orange"/>
+        <Label Content="Počet dní do Vánoc: "/>
+        <Label x:Name="lbDniDoVanoc" FontSize="25" Background="Lime"/>
+    </StackPanel>
+</Window>
